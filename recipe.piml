@@ -1,0 +1,4 @@
+(name) atlas.facade
+(version) 0.1.0
+(description) Retro-future mock API server for backend prototyping.
+(license) MIT

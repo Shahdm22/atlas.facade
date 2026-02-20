@@ -1,0 +1,21 @@
+(routes)
+  > (route)
+    (path) /v1/status
+    (method) GET
+    (status) 200
+    (body) {"status": "Nominal", "location": "Goodsprings"}
+    (latency) 100ms
+
+  > (route)
+    (path) /v1/courier/6
+    (method) GET
+    (status) 200
+    (body) {"id": 6, "name": "Courier", "perks": ["Action Boy", "Fortune Finder"]}
+    (latency) 500ms
+
+  > (route)
+    (path) /v1/ncr/broadcast
+    (method) POST
+    (status) 201
+    (body) {"message": "Transmission received."}
+    (latency) 1s
