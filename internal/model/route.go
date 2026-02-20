@@ -3,7 +3,7 @@ package model
 import "time"
 
 type Blueprint struct {
-	Routes []Route `piml:"routes>route"`
+	Routes []Route `piml:"routes"`
 }
 
 type Route struct {
