@@ -48,5 +48,23 @@ gobake build
 ./atlas.facade --file routes.piml --port 4000
 ```
 
+### 🧪 Testing Your API
+
+While the server is running, you can test your endpoints from another terminal:
+
+#### 🐧 Linux / 🍎 macOS (Bash)
+```bash
+curl -i http://localhost:4000/v1/status
+```
+
+#### 🪟 Windows (PowerShell)
+```powershell
+# Native PowerShell
+Invoke-RestMethod -Uri "http://localhost:4000/v1/status"
+
+# Or using Windows built-in curl.exe
+curl.exe -i http://localhost:4000/v1/status
+```
+
 ## 📄 License
 MIT License - see [LICENSE](LICENSE) for details.
