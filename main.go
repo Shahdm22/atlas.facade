@@ -15,6 +15,22 @@ import (
 var Version = "dev"
 
 func main() {
+	if len(os.Args) > 1 && (os.Args[1] == "-v" || os.Args[1] == "--version") {
+		fmt.Printf("atlas.facade v%s\n", Version)
+		return
+	}
+	if len(os.Args) > 1 && (os.Args[1] == "-h" || os.Args[1] == "--help" || os.Args[1] == "help") {
+		fmt.Println("Atlas Facade - Retro-future Pip-Boy style mock API server.")
+		fmt.Println("\nUsage:")
+		fmt.Println("  atlas.facade [options]")
+		fmt.Println("\nOptions:")
+		fmt.Println("  -port int     Port to run the mock server on (default 4000)")
+		fmt.Println("  -file string  PIML file containing route definitions (default \"routes.piml\")")
+		fmt.Println("  -v, -version  Show version information")
+		fmt.Println("  -h, -help     Show this help")
+		return
+	}
+
 	port := flag.Int("port", 4000, "Port to run the mock server on")
 	blueprintPath := flag.String("file", "routes.piml", "PIML file containing route definitions")
 	versionFlag := flag.Bool("version", false, "Show version information")
